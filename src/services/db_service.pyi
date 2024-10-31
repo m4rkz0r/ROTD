@@ -42,7 +42,8 @@ class DBService:
     def _get_zip_fields(query: str) -> Union[str, List[str]]:
         """
         Private method that returns a list of fields from the query string.
-        If * is used, returns all fields
+        If * is used, returns all fields.
+        Lowercases the query string to ensure consistency.
 
         :param query: A string representing the query to be checked
         :return: A list of strings representing the fields from the query

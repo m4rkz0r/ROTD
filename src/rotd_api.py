@@ -59,7 +59,7 @@ def fetch_data():
         if ":Other:" in result:
             result = result.strip(":Other:")
             logger.error(f"{sender_ip} ::500:: Other error: {result}")
-            return jsonify({"error": f"Internal server error: {result}"}), 500
+            return jsonify({"error": f": {result}"}), 500
 
         # Query successful, log success, return result
         logger.info(f"{sender_ip} ::200:: Query successful")
@@ -68,7 +68,7 @@ def fetch_data():
     except Exception as e:
         # Log general function failure, return exception message
         logger.error(f"{sender_ip} :: Error:: {str(e)}")
-        return jsonify({"error": str(e) + "Please contact an administrator"}), 500
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":

@@ -53,7 +53,7 @@ class DBService:
     @staticmethod
     # Get fields from query, return all fields if * is used
     def _get_zip_fields(query):
-        fields = query.split("SELECT")[1].split("FROM")[0].strip()
+        fields = query.lower().split("select")[1].split("from")[0].strip()
         return all_fields if fields == "*" else fields
 
 
