@@ -1,0 +1,384 @@
+2024-10-31 10:37:43,782 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 10:37:43,803 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-31 10:37:43,803 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 10:37:43,804 - INFO -  * Restarting with stat
+2024-10-31 10:37:44,332 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 10:37:44,348 - WARNING -  * Debugger is active!
+2024-10-31 10:37:44,355 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:02:58,228 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:02:58,295 - INFO -  * Restarting with stat
+2024-10-31 11:02:58,925 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:02:58,945 - WARNING -  * Debugger is active!
+2024-10-31 11:02:58,952 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:03:26,699 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:03:26,755 - INFO -  * Restarting with stat
+2024-10-31 11:03:27,402 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:03:27,418 - WARNING -  * Debugger is active!
+2024-10-31 11:03:27,425 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:04:32,037 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:04:32,099 - INFO -  * Restarting with stat
+2024-10-31 11:04:32,728 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:04:32,745 - WARNING -  * Debugger is active!
+2024-10-31 11:04:32,752 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:09:52,123 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:09:52,180 - INFO -  * Restarting with stat
+2024-10-31 11:09:52,733 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:09:52,748 - WARNING -  * Debugger is active!
+2024-10-31 11:09:52,755 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:10:45,153 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:10:45,222 - INFO -  * Restarting with stat
+2024-10-31 11:10:45,762 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:10:45,777 - WARNING -  * Debugger is active!
+2024-10-31 11:10:45,784 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:11:15,858 - INFO - Received from 127.0.0.1: {'query': 'select * from traffic_data LIMIT 5;'}
+2024-10-31 11:11:15,858 - ERROR - 127.0.0.1 :: Error:: list index out of range
+2024-10-31 11:11:15,858 - INFO - 127.0.0.1 - - [31/Oct/2024 11:11:15] "[35m[1mPOST /fetch_data HTTP/1.1[0m" 500 -
+2024-10-31 11:11:25,060 - INFO - Received from 127.0.0.1: {'query': 'select * from traffic_data;'}
+2024-10-31 11:11:25,060 - ERROR - 127.0.0.1 :: Error:: list index out of range
+2024-10-31 11:11:25,061 - INFO - 127.0.0.1 - - [31/Oct/2024 11:11:25] "[35m[1mPOST /fetch_data HTTP/1.1[0m" 500 -
+2024-10-31 11:11:53,013 - INFO - Received from 127.0.0.1: {'query': 'select * from traffic_data;'}
+2024-10-31 11:11:53,013 - ERROR - 127.0.0.1 :: Error:: list index out of range
+2024-10-31 11:11:53,013 - INFO - 127.0.0.1 - - [31/Oct/2024 11:11:53] "[35m[1mPOST /fetch_data HTTP/1.1[0m" 500 -
+2024-10-31 11:12:23,705 - INFO - Received from 127.0.0.1: {'query': 'LOLAMAO;'}
+2024-10-31 11:12:23,705 - ERROR - 127.0.0.1 :: Error:: list index out of range
+2024-10-31 11:12:23,705 - INFO - 127.0.0.1 - - [31/Oct/2024 11:12:23] "[35m[1mPOST /fetch_data HTTP/1.1[0m" 500 -
+2024-10-31 11:13:06,087 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data LIMIT 10;'}
+2024-10-31 11:13:06,157 - INFO - 127.0.0.1 ::200:: Query successful
+2024-10-31 11:13:06,157 - INFO - 127.0.0.1 - - [31/Oct/2024 11:13:06] "POST /fetch_data HTTP/1.1" 200 -
+2024-10-31 11:13:56,376 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:13:56,439 - INFO -  * Restarting with stat
+2024-10-31 11:13:56,988 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:13:57,004 - WARNING -  * Debugger is active!
+2024-10-31 11:13:57,011 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:14:47,345 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:14:47,399 - INFO -  * Restarting with stat
+2024-10-31 11:14:47,944 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:14:47,960 - WARNING -  * Debugger is active!
+2024-10-31 11:14:47,967 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:15:11,574 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:15:11,632 - INFO -  * Restarting with stat
+2024-10-31 11:15:12,204 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:15:12,219 - WARNING -  * Debugger is active!
+2024-10-31 11:15:12,225 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:16:12,761 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:16:12,834 - INFO -  * Restarting with stat
+2024-10-31 11:16:13,378 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:16:13,395 - WARNING -  * Debugger is active!
+2024-10-31 11:16:13,401 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:16:26,748 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:16:26,805 - INFO -  * Restarting with stat
+2024-10-31 11:16:27,359 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:16:27,374 - WARNING -  * Debugger is active!
+2024-10-31 11:16:27,381 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:16:54,088 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:16:54,172 - INFO -  * Restarting with stat
+2024-10-31 11:16:54,786 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:16:54,803 - WARNING -  * Debugger is active!
+2024-10-31 11:16:54,810 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:17:52,265 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:17:52,324 - INFO -  * Restarting with stat
+2024-10-31 11:17:52,880 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:17:52,896 - WARNING -  * Debugger is active!
+2024-10-31 11:17:52,902 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:17:52,930 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data'}
+2024-10-31 11:18:32,357 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:18:32,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-31 11:18:32,377 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 11:18:32,379 - INFO -  * Restarting with stat
+2024-10-31 11:18:32,918 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:18:32,933 - WARNING -  * Debugger is active!
+2024-10-31 11:18:32,940 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:20:57,917 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:20:57,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-31 11:20:57,937 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 11:20:57,938 - INFO -  * Restarting with stat
+2024-10-31 11:20:58,475 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:20:58,491 - WARNING -  * Debugger is active!
+2024-10-31 11:20:58,498 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:21:13,445 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data LIMIT 10;'}
+2024-10-31 11:21:13,517 - INFO - 127.0.0.1 ::200:: Query successful
+2024-10-31 11:21:13,517 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:13] "POST /fetch_data HTTP/1.1" 200 -
+2024-10-31 11:21:13,520 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:13,520 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:13] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:13,522 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:13,523 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:13] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:13,532 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:13,532 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:13] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:32,035 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data LIMIT 10;'}
+2024-10-31 11:21:32,037 - INFO - 127.0.0.1 ::200:: Query successful
+2024-10-31 11:21:32,037 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:32] "POST /fetch_data HTTP/1.1" 200 -
+2024-10-31 11:21:32,040 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:32,041 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:32] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:32,043 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:32,044 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:32] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:32,048 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:32,048 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:32] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:32,050 - ERROR - 127.0.0.1 ::401:: Unauthorized access
+2024-10-31 11:21:32,051 - INFO - 127.0.0.1 - - [31/Oct/2024 11:21:32] "[31m[1mPOST /fetch_data HTTP/1.1[0m" 401 -
+2024-10-31 11:21:32,318 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:21:32,380 - INFO -  * Restarting with stat
+2024-10-31 11:21:32,987 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:21:33,004 - WARNING -  * Debugger is active!
+2024-10-31 11:21:33,010 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:22:24,361 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:22:24,450 - INFO -  * Restarting with stat
+2024-10-31 11:22:25,014 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:22:25,043 - WARNING -  * Debugger is active!
+2024-10-31 11:22:25,050 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:22:29,601 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data LIMIT 10;'}
+2024-10-31 11:22:29,677 - INFO - 127.0.0.1 ::200:: Query successful
+2024-10-31 11:22:29,678 - INFO - 127.0.0.1 - - [31/Oct/2024 11:22:29] "POST /fetch_data HTTP/1.1" 200 -
+2024-10-31 11:22:44,535 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\rotd_api.py', reloading
+2024-10-31 11:22:44,590 - INFO -  * Restarting with stat
+2024-10-31 11:22:45,127 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:22:45,143 - WARNING -  * Debugger is active!
+2024-10-31 11:22:45,150 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:29:09,131 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 11:29:09,209 - INFO -  * Restarting with stat
+2024-10-31 11:29:09,894 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:29:09,915 - WARNING -  * Debugger is active!
+2024-10-31 11:29:09,923 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:44:31,733 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 11:44:31,811 - INFO -  * Restarting with stat
+2024-10-31 11:44:32,363 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:44:32,380 - WARNING -  * Debugger is active!
+2024-10-31 11:44:32,386 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 11:44:45,788 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 11:44:45,866 - INFO -  * Restarting with stat
+2024-10-31 11:44:46,425 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 11:44:46,441 - WARNING -  * Debugger is active!
+2024-10-31 11:44:46,447 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:01:45,889 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:01:45,983 - INFO -  * Restarting with stat
+2024-10-31 12:01:46,546 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:01:46,561 - WARNING -  * Debugger is active!
+2024-10-31 12:01:46,567 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:21:24,467 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:21:24,529 - INFO -  * Restarting with stat
+2024-10-31 12:21:25,112 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:21:25,129 - WARNING -  * Debugger is active!
+2024-10-31 12:21:25,136 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:26:18,615 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:26:18,668 - INFO -  * Restarting with stat
+2024-10-31 12:26:19,295 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:26:19,312 - WARNING -  * Debugger is active!
+2024-10-31 12:26:19,319 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:27:04,560 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:27:04,634 - INFO -  * Restarting with stat
+2024-10-31 12:27:05,183 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:27:05,200 - WARNING -  * Debugger is active!
+2024-10-31 12:27:05,206 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:27:51,456 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:27:51,527 - INFO -  * Restarting with stat
+2024-10-31 12:27:52,078 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:27:52,094 - WARNING -  * Debugger is active!
+2024-10-31 12:27:52,101 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:28:53,713 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:28:53,766 - INFO -  * Restarting with stat
+2024-10-31 12:28:54,383 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:28:54,400 - WARNING -  * Debugger is active!
+2024-10-31 12:28:54,406 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:29:15,997 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:29:16,050 - INFO -  * Restarting with stat
+2024-10-31 12:29:16,651 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:29:16,667 - WARNING -  * Debugger is active!
+2024-10-31 12:29:16,674 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:29:50,661 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:29:50,729 - INFO -  * Restarting with stat
+2024-10-31 12:29:51,284 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:29:51,301 - WARNING -  * Debugger is active!
+2024-10-31 12:29:51,307 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:30:04,670 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:30:04,736 - INFO -  * Restarting with stat
+2024-10-31 12:30:05,283 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:30:05,298 - WARNING -  * Debugger is active!
+2024-10-31 12:30:05,305 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:31:28,439 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:31:28,491 - INFO -  * Restarting with stat
+2024-10-31 12:31:29,128 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:31:29,145 - WARNING -  * Debugger is active!
+2024-10-31 12:31:29,153 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:31:53,842 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:31:53,910 - INFO -  * Restarting with stat
+2024-10-31 12:31:54,467 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:31:54,484 - WARNING -  * Debugger is active!
+2024-10-31 12:31:54,491 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:32:59,230 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:32:59,300 - INFO -  * Restarting with stat
+2024-10-31 12:32:59,851 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:32:59,867 - WARNING -  * Debugger is active!
+2024-10-31 12:32:59,874 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:33:08,150 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:33:08,222 - INFO -  * Restarting with stat
+2024-10-31 12:33:08,775 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:33:08,791 - WARNING -  * Debugger is active!
+2024-10-31 12:33:08,798 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:33:41,686 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:33:41,738 - INFO -  * Restarting with stat
+2024-10-31 12:33:42,273 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:33:42,289 - WARNING -  * Debugger is active!
+2024-10-31 12:33:42,295 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:34:13,089 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:34:13,154 - INFO -  * Restarting with stat
+2024-10-31 12:34:13,709 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:34:13,725 - WARNING -  * Debugger is active!
+2024-10-31 12:34:13,732 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:34:35,349 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:34:35,423 - INFO -  * Restarting with stat
+2024-10-31 12:34:35,992 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:34:36,007 - WARNING -  * Debugger is active!
+2024-10-31 12:34:36,013 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:36:23,861 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:36:23,929 - INFO -  * Restarting with stat
+2024-10-31 12:36:24,495 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:36:24,510 - WARNING -  * Debugger is active!
+2024-10-31 12:36:24,517 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:37:44,678 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:37:44,730 - INFO -  * Restarting with stat
+2024-10-31 12:37:45,303 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:37:45,319 - WARNING -  * Debugger is active!
+2024-10-31 12:37:45,326 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:54:01,721 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:54:01,799 - INFO -  * Restarting with stat
+2024-10-31 12:54:02,417 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:54:02,435 - WARNING -  * Debugger is active!
+2024-10-31 12:54:02,441 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:54:32,291 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:54:32,349 - INFO -  * Restarting with stat
+2024-10-31 12:54:32,904 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:54:32,919 - WARNING -  * Debugger is active!
+2024-10-31 12:54:32,926 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:57:48,802 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\tests\\db_service.py', reloading
+2024-10-31 12:57:48,869 - INFO -  * Restarting with stat
+2024-10-31 12:57:49,416 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:57:49,432 - WARNING -  * Debugger is active!
+2024-10-31 12:57:49,438 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 12:59:31,136 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\services\\db_service.py', reloading
+2024-10-31 12:59:31,206 - INFO -  * Restarting with stat
+2024-10-31 12:59:31,763 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 12:59:31,780 - WARNING -  * Debugger is active!
+2024-10-31 12:59:31,786 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 14:13:30,954 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 14:13:30,974 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-31 14:13:30,974 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 14:13:30,975 - INFO -  * Restarting with stat
+2024-10-31 14:13:31,505 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 14:13:31,521 - WARNING -  * Debugger is active!
+2024-10-31 14:13:31,527 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 14:23:31,285 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\rotd_api.py', reloading
+2024-10-31 14:23:31,355 - INFO -  * Restarting with stat
+2024-10-31 14:23:31,948 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 14:23:31,964 - WARNING -  * Debugger is active!
+2024-10-31 14:23:31,970 - INFO -  * Debugger PIN: 110-112-436
+2024-10-31 14:23:37,418 - INFO - Received from 127.0.0.1: {'query': 'SELECT * FROM traffic_data LIMIT 10;'}
+2024-10-31 14:23:37,491 - INFO - 127.0.0.1 ::200:: Query successful
+2024-10-31 14:23:37,491 - INFO - 127.0.0.1 - - [31/Oct/2024 14:23:37] "POST /fetch_data HTTP/1.1" 200 -
+2024-10-31 14:25:36,168 - INFO -  * Detected change in 'C:\\Users\\Massi\\Documents\\Projects\\CityScienceRTOD\\CitySceinceRTOD\\src\\rotd_api.py', reloading
+2024-10-31 14:25:36,227 - INFO -  * Restarting with stat
+2024-10-31 14:25:36,764 - INFO - 
+
+-----------ROTD API started-----------
+2024-10-31 14:25:36,780 - WARNING -  * Debugger is active!
+2024-10-31 14:25:36,786 - INFO -  * Debugger PIN: 110-112-436

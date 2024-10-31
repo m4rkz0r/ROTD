@@ -1,0 +1,11 @@
+If this project was to go into a live environment, I would add the following features:
+
+- A correct database schema model for the dataset
+- API Versioning for future scalability and ensuring backward compatibility
+- Rate Limiting and Throttling to prevent abuse or overuse
+- Authentication and Authorization to ensure only authenticated users can access the API and to control what actions they can perform
+- Caching to improve the performance of the API
+- Continuous Integration/Continuous Deployment (CI/CD) pipeline to automate the deployment process
+- Database Indexing and Optimization to improve the performance of database queries
+- Data Migrations to manage changes to the database schema
+- More robust Error Handling and Logging to track errors and monitor the health of the API

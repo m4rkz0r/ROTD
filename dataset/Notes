@@ -1,0 +1,21 @@
+Issues found with dataset:
+
+___ DEFALUT SET ALL FIELDS TO NULLABLE ___
+
+ERROR: invalid input syntax for type numeric: "NULL"
+CONTEXT: COPY traffic_data, line 805322, column link_length_km: "NULL"
+
+ERROR: value too long for type character(1)
+CONTEXT: COPY traffic_data, line 97071, column direction_of_travel: "NULL"
+
+___ DEFAULT SET VARCAR LEN TO ~INF ___
+
+ERROR: value too long for type character varying(100)
+CONTEXT: COPY traffic_data, line 767301, column end_junction_road_name: "Roundabout directly south of View Farm, Staffordshire (joining A522 slip road and A522 Dual Carriage..."
+
+-----
+
+Ideally I would specify all the data types available and give them hardcoded limitations.
+However, I couldn't locate a database schema model for this dataset and didn't want
+to spend too much dev time on making the model absolutely perfect.
+In a production environment this would be a must and I would act accordingly.

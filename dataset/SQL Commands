@@ -1,0 +1,11 @@
+
+--Permission error when run from pgAdmin4 --
+
+COPY traffic_data
+FROM 'C:\Users\Massi\Documents\Projects\CityScienceRTOD\CitySceinceRTOD\dataset\dft_traffic_counts_aadf_by_direction.csv'
+DELIMITER ','
+CSV HEADER;
+
+
+--- success when run from psql ---
+\copy traffic_data FROM 'C:/Users/Massi/Documents/Projects/CityScienceRTOD/CitySceinceRTOD/dataset/dft_traffic_counts_aadf_by_direction.csv' DELIMITER ',' CSV HEADER NULL 'NULL';
