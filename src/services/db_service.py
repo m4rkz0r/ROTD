@@ -59,8 +59,8 @@ class DBService:
 
 if __name__ == "__main__":
     db = DBService()
-    data = db.fetch_data("SELECT * FROM tabel LIMIT 10;")
-    print(data)
+    # data = db.fetch_data("SELECT * FROM tabel LIMIT 10;")
+    # print(data)
     data = db.fetch_data("SELECT count_point_id, year, region_id FROM traffic_data LIMIT 10;")
     print(data)
 
