@@ -42,20 +42,33 @@ def fetch_data():
             logger.error(f"{sender_ip} ::400:: Query parameter not provided")
             return jsonify({"error": "Query parameter is required"}), 400
 
-        # Check if query is safe, return error if not, log error
+        # Execute query
         result = db.fetch_data(query)
-        if not result:
-            logger.error(f"{sender_ip} ::400:: Invalid query: {query}")
-            return jsonify({"error": "Invalid query. Please only use SELECT"}), 400
 
-        # Query successful, return result, log success
+        # If query is potentially unsafe, log error, return error message
+        if result == "unsafe":
+            logger.error(f"{sender_ip} ::403:: Unauthorised query: {query}")
+            return jsonify({"error": "Please only use SELECT when executing a query"}), 403
+
+        # If selected table doesn't exist, log error, return error message
+        if result == "Table error":
+            logger.error(f"{sender_ip} ::400:: Table does not exist")
+            return jsonify({"error": "Selected table does not exist"}), 400
+
+        # If unhandled error, log error, return error result
+        if ":Other:" in result:
+            result = result.strip(":Other:")
+            logger.error(f"{sender_ip} ::500:: Other error: {result}")
+            return jsonify({"error": f"Internal server error: {result}"}), 500
+
+        # Query successful, log success, return result
         logger.info(f"{sender_ip} ::200:: Query successful")
         return jsonify(result), 200
 
     except Exception as e:
-        # Log error, return error message
+        # Log general function failure, return exception message
         logger.error(f"{sender_ip} :: Error:: {str(e)}")
-        return jsonify({"error": str(e)}), 500
+        return jsonify({"error": str(e) + "Please contact an administrator"}), 500
 
 
 if __name__ == "__main__":

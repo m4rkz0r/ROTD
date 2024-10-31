@@ -18,7 +18,7 @@ class DBService:
         """
     ...
 
-    def fetch_data(self, query: str) -> Union[bool, List[Dict[str, Union[str, int, float]]]]:
+    def fetch_data(self, query: str) -> Union[str, List[Dict[str, Union[str, int, float]]]]:
         """
         Execute query and return result
 

@@ -25,10 +25,10 @@ class DBService:
         self.engine = create_engine(f"postgresql+pg8000://{user}:{password}@{host}:{port}/{database}")
 
     def fetch_data(self, query):
-        # Check if query is safe, return False if not
+        # Check if query is safe, return messsage if not
         try:
             if not self._is_safe_query(query):
-                return False
+                return "unsafe"
             else:
                 # Execute query and return result
                 fields = self._get_zip_fields(query)
@@ -37,10 +37,13 @@ class DBService:
                     table_data = [dict(zip(fields, row)) for row in result]
                 return table_data
         except Exception as e:
+            # Return error message if table doesn't exist
             if 'relation' in str(e):
-                table = str(e).split('"')[1]
-                return f"Table '{table}' does not exist: {e}"
-            return str(e)
+                return "Table error"
+
+            # Return error message for any other error
+            else:
+                return ":Other:" + str(e)
 
     @staticmethod
     # Check if query is safe by checking for any unsafe keywords
