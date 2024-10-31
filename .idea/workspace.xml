@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd49981-476c-4546-ba71-bd8b687adf37" name="Changes" comment="Removed Dataset" />
+    <list default="true" id="2dd49981-476c-4546-ba71-bd8b687adf37" name="Changes" comment="added requirements.txt">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SQL Commands" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SQL Commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log/ROTDlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/log/ROTDlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rotd_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotd_api.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,18 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in db_service.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in rotd_api.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.db_service.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.rotd_api (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.rotd_api.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in db_service.py.executor": "Run",
+    "Python tests.Python tests in rotd_api.py.executor": "Run",
+    "Python.db_service.executor": "Debug",
+    "Python.rotd_api (1).executor": "Run",
+    "Python.rotd_api.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Massi\Documents\Projects\CityScienceRTOD\CitySceinceRTOD\src" />
@@ -165,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730389039306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added requirements.txt">
+      <option name="closed" value="true" />
+      <created>1730391584368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730391584368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed Dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Dataset" />
+    <MESSAGE value="added requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
