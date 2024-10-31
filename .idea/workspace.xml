@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd49981-476c-4546-ba71-bd8b687adf37" name="Changes" comment="added requirements.txt">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2dd49981-476c-4546-ba71-bd8b687adf37" name="Changes" comment="updated app run address for server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/SQL Commands" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SQL Commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/log/ROTDlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/log/ROTDlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rotd_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotd_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/db_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/db_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
   "keyToString": {
     "Python tests.Python tests in db_service.py.executor": "Run",
     "Python tests.Python tests in rotd_api.py.executor": "Run",
-    "Python.db_service.executor": "Debug",
+    "Python.db_service.executor": "Run",
     "Python.rotd_api (1).executor": "Run",
     "Python.rotd_api.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,7 +54,29 @@
       <recent name="C:\Users\Massi\Documents\Projects\CityScienceRTOD\CitySceinceRTOD\downloads" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rotd_api (1)">
+  <component name="RunManager" selected="Python.db_service">
+    <configuration name="db_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CitySceinceRTOD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/services" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/services/db_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rotd_api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CitySceinceRTOD" />
       <option name="ENV_FILES" value="" />
@@ -134,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.db_service" />
         <item itemvalue="Python.rotd_api (1)" />
         <item itemvalue="Python tests.Python tests in db_service.py" />
         <item itemvalue="Python tests.Python tests in rotd_api.py" />
@@ -181,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730391584368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated app run address for server">
+      <option name="closed" value="true" />
+      <created>1730399400061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730399400061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,14 +243,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed Dataset" />
     <MESSAGE value="added requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added requirements.txt" />
+    <MESSAGE value="updated app run address for server" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated app run address for server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/services/db_service.py</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -246,14 +275,19 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/services/db_service.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/tests/db_service.py</url>
           <line>5</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/db_service.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/db_service.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -26,15 +26,21 @@ class DBService:
 
     def fetch_data(self, query):
         # Check if query is safe, return False if not
-        if not self._is_safe_query(query):
-            return False
-        else:
-            # Execute query and return result
-            fields = self._get_zip_fields(query)
-            with self.engine.connect() as connection:
-                result = connection.execute(text(query))
-                table_data = [dict(zip(fields, row)) for row in result]
-            return table_data
+        try:
+            if not self._is_safe_query(query):
+                return False
+            else:
+                # Execute query and return result
+                fields = self._get_zip_fields(query)
+                with self.engine.connect() as connection:
+                    result = connection.execute(text(query))
+                    table_data = [dict(zip(fields, row)) for row in result]
+                return table_data
+        except Exception as e:
+            if 'relation' in str(e):
+                table = str(e).split('"')[1]
+                return f"Table '{table}' does not exist: {e}"
+            return str(e)
 
     @staticmethod
     # Check if query is safe by checking for any unsafe keywords
@@ -50,7 +56,7 @@ class DBService:
 
 if __name__ == "__main__":
     db = DBService()
-    data = db.fetch_data("SELECT * FROM traffic_data LIMIT 10;")
+    data = db.fetch_data("SELECT * FROM tabel LIMIT 10;")
     print(data)
     data = db.fetch_data("SELECT count_point_id, year, region_id FROM traffic_data LIMIT 10;")
     print(data)
