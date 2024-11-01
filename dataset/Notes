@@ -19,3 +19,29 @@ Ideally I would specify all the data types available and give them hardcoded lim
 However, I couldn't locate a database schema model for this dataset and didn't want
 to spend too much dev time on making the model absolutely perfect.
 In a production environment this would be a must and I would act accordingly.
+
+
+----- SERVICE CONFIG -----
+
+
+sudo nano /etc/systemd/system/my_api.service
+
+-
+[Unit]
+Description=My Python API Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c 'source /root/CS/ROTD/venv/bin/activate && python3 /root/CS/ROTD/src/rotd_api.py'
+WorkingDirectory=/root/CS/ROTD/src
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+-
+sudo systemctl daemon-reload
+sudo systemctl restart my_api.service
+sudo systemctl status my_api.service
